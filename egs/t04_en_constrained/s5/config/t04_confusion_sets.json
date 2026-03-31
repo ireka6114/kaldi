@@ -1,0 +1,68 @@
+{
+  "task_id": "T04_EN",
+  "formal_default": {
+    "candidate_policy": "item_plus_confusion_family_safe",
+    "families": [
+      {
+        "family_name": "ot_family",
+        "diagnostic_dimension": "onset",
+        "items": {
+          "fot": ["fot", "wot", "zot", "fote"],
+          "wot": ["wot", "fot", "zot", "wote"],
+          "zot": ["zot", "fot", "wot", "zote"],
+          "fote": ["fote", "wote", "zote", "fot"],
+          "wote": ["wote", "fote", "zote", "wot"],
+          "zote": ["zote", "fote", "wote", "zot"]
+        }
+      },
+      {
+        "family_name": "op_family",
+        "diagnostic_dimension": "onset",
+        "items": {
+          "gop": ["gop", "vop", "jop", "gope"],
+          "vop": ["vop", "gop", "jop", "vope"],
+          "jop": ["jop", "gop", "vop", "jope"],
+          "gope": ["gope", "vope", "jope", "gop"],
+          "vope": ["vope", "gope", "jope", "vop"],
+          "jope": ["jope", "gope", "vope", "jop"]
+        }
+      },
+      {
+        "family_name": "otting_oting_family",
+        "diagnostic_dimension": "ing_pattern",
+        "items": {
+          "fotting": ["fotting", "wotting", "zotting", "foting"],
+          "wotting": ["wotting", "fotting", "zotting", "woting"],
+          "zotting": ["zotting", "fotting", "wotting", "zoting"],
+          "foting": ["foting", "woting", "zoting", "fotting"],
+          "woting": ["woting", "foting", "zoting", "wotting"],
+          "zoting": ["zoting", "foting", "woting", "zotting"]
+        }
+      },
+      {
+        "family_name": "opping_oping_family",
+        "diagnostic_dimension": "ing_pattern",
+        "items": {
+          "gopping": ["gopping", "vopping", "jopping", "goping"],
+          "vopping": ["vopping", "gopping", "jopping", "voping"],
+          "jopping": ["jopping", "gopping", "vopping", "joping"],
+          "goping": ["goping", "voping", "joping", "gopping"],
+          "voping": ["voping", "goping", "joping", "vopping"],
+          "joping": ["joping", "goping", "voping", "jopping"]
+        }
+      }
+    ]
+  },
+  "diagnostic_level_all": {
+    "candidate_policy": "diagnostic_level_all",
+    "enabled": true,
+    "notes": "Keep level-wide candidate competition only for baseline/diagnostic control, not formal default scoring."
+  },
+  "optional_pseudoword_diagnostics": {
+    "candidate_policy": "optional_pseudoword_diagnostics",
+    "enabled_by_default": false,
+    "items": {
+      "__vot__": ["__vot__", "fot", "wot", "zot"]
+    }
+  }
+}

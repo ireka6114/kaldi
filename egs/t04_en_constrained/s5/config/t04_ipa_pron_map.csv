@@ -1,0 +1,33 @@
+word,raw_ipa,espeak_ipa,lexical_type
+bod,/bɒd/,[[bɒd]],CVC teaching anchor
+zod,/zɒd/,[[zɒd]],CVC teaching anchor
+fot,/fɒt/,[[fɒt]],CVC target
+gop,/gɒp/,[[ɡɒp]],CVC target
+vop,/vɒp/,[[vɒp]],CVC target
+wot,/wɒt/,[[wɒt]],CVC target
+jop,/dʒɒp/,[[dʒɒp]],CVC target
+zot,/zɒt/,[[zɒt]],CVC target
+bode,/bəʊd/,[[bəʊd]],CVCe teaching anchor
+dod,/dɒd/,[[dɒd]],CVCe teaching anchor
+dode,/dəʊd/,[[dəʊd]],CVCe teaching anchor
+fote,/fəʊt/,[[fəʊt]],CVCe target
+gope,/gəʊp/,[[ɡəʊp]],CVCe target
+vope,/vəʊp/,[[vəʊp]],CVCe target
+wote,/wəʊt/,[[wəʊt]],CVCe target
+jope,/dʒəʊp/,[[dʒəʊp]],CVCe target
+zote,/zəʊt/,[[zəʊt]],CVCe target
+boting,/bəʊtɪŋ/,[[ˈbəʊtɪŋ]],CVCCing teaching anchor
+boding,/bəʊdɪŋ/,[[ˈbəʊdɪŋ]],CVCCing teaching anchor
+bodding,/bɒdɪŋ/,[[ˈbɒdɪŋ]],CVCCing teaching anchor
+foting,/fəʊtɪŋ/,[[ˈfəʊtɪŋ]],inferred_to_complete_paradigm
+fotting,/fɒtɪŋ/,[[ˈfɒtɪŋ]],CVCCing short-vowel form
+goping,/gəʊpɪŋ/,[[ˈɡəʊpɪŋ]],CVCCing long-vowel form
+gopping,/gɒpɪŋ/,[[ˈɡɒpɪŋ]],CVCCing short-vowel form
+voping,/vəʊpɪŋ/,[[ˈvəʊpɪŋ]],inferred_to_complete_paradigm
+vopping,/vɒpɪŋ/,[[ˈvɒpɪŋ]],CVCCing short-vowel form
+woting,/wəʊtɪŋ/,[[ˈwəʊtɪŋ]],CVCCing long-vowel form
+wotting,/wɒtɪŋ/,[[ˈwɒtɪŋ]],CVCCing short-vowel form
+joping,/dʒəʊpɪŋ/,[[ˈdʒəʊpɪŋ]],inferred_to_complete_paradigm
+jopping,/dʒɒpɪŋ/,[[ˈdʒɒpɪŋ]],CVCCing short-vowel form
+zoting,/zəʊtɪŋ/,[[ˈzəʊtɪŋ]],CVCCing long-vowel form
+zotting,/zɒtɪŋ/,[[ˈzɒtɪŋ]],CVCCing short-vowel form

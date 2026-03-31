@@ -1,0 +1,36 @@
+{
+  "task_id": "T02_EN_DYNAMIC",
+  "core_task_id": "ELISION_EN_CORE",
+  "entry_condition": {
+    "source": "T01_EN_STATIC",
+    "required_field": "error_item_ids",
+    "eligible_decisions": ["reject", "uncertain"],
+    "start_rule": "start_from_first_error_item_in_t01_order",
+    "continuation_rule": "continue_through_remaining_items_regardless_of_later_correctness"
+  },
+  "prompt_hint_levels": ["minimal", "deletion_cue", "modeled_feedback"],
+  "teaching_steps": [
+    "replay_original_item",
+    "present_deletion_probe",
+    "deliver_feedback",
+    "retry_same_item"
+  ],
+  "retry_strategy": {
+    "max_retries_per_item": 2,
+    "reuse_shared_probe_graph": true
+  },
+  "termination_rules": {
+    "stop_when_remaining_suffix_items_finished": true
+  },
+  "dynamic_metadata_defaults": {
+    "prompt_level_support": ["minimal", "deletion_cue", "modeled_feedback"],
+    "teachable_error_types": [
+      "failed_deletion",
+      "deleted_part_only_response",
+      "whole_word_dominance",
+      "uncertain_margin"
+    ],
+    "suggested_feedback_type": "deletion_scaffold",
+    "retry_supported": true
+  }
+}

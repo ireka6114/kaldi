@@ -1,0 +1,1461 @@
+{
+  "fixed_pair_replacements": {
+    "gop:gope": {
+      "accepted": [
+        {
+          "stem": "bop",
+          "short_word": "bop",
+          "long_word": "bope",
+          "ing_short_word": "bopping",
+          "ing_long_word": "boping",
+          "nearest_real_short": [
+            {
+              "word": "bob",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.4739314945537916,
+          "char_trigram_score_long": -2.0693651484297737,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "gop:gope",
+          "score": 2
+        },
+        {
+          "stem": "kop",
+          "short_word": "kop",
+          "long_word": "kope",
+          "ing_short_word": "kopping",
+          "ing_long_word": "koping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.7531742976774765,
+          "char_trigram_score_long": -2.278797250772537,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "gop:gope",
+          "score": 2
+        },
+        {
+          "stem": "zop",
+          "short_word": "zop",
+          "long_word": "zope",
+          "ing_short_word": "zopping",
+          "ing_long_word": "zoping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.556935804984667,
+          "char_trigram_score_long": -2.1316183812529306,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "gop:gope",
+          "score": 2
+        }
+      ],
+      "rejected": [
+        {
+          "stem": "dop",
+          "short_word": "dop",
+          "long_word": "dope",
+          "ing_short_word": "dopping",
+          "ing_long_word": "doping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.1321014866074095,
+          "char_trigram_score_long": -1.8129926424699871,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "gop:gope"
+        },
+        {
+          "stem": "fop",
+          "short_word": "fop",
+          "long_word": "fope",
+          "ing_short_word": "fopping",
+          "ing_long_word": "foping",
+          "nearest_real_short": [
+            {
+              "word": "fop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.2198848105381592,
+          "char_trigram_score_long": -1.8788301354180497,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "gop:gope"
+        },
+        {
+          "stem": "mop",
+          "short_word": "mop",
+          "long_word": "mope",
+          "ing_short_word": "mopping",
+          "ing_long_word": "moping",
+          "nearest_real_short": [
+            {
+              "word": "mop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.1951821531535853,
+          "char_trigram_score_long": -1.8603031423796192,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "gop:gope"
+        },
+        {
+          "stem": "nop",
+          "short_word": "nop",
+          "long_word": "nope",
+          "ing_short_word": "nopping",
+          "ing_long_word": "noping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "nope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.0960302917273315,
+          "char_trigram_score_long": -1.7859392463099288,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "gop:gope"
+        },
+        {
+          "stem": "pop",
+          "short_word": "pop",
+          "long_word": "pope",
+          "ing_short_word": "popping",
+          "ing_long_word": "poping",
+          "nearest_real_short": [
+            {
+              "word": "pop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "pope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.051973034024504,
+          "char_trigram_score_long": -1.752896303032808,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "gop:gope"
+        },
+        {
+          "stem": "rop",
+          "short_word": "rop",
+          "long_word": "rope",
+          "ing_short_word": "ropping",
+          "ing_long_word": "roping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "rope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.1224669045466262,
+          "char_trigram_score_long": -1.8057667059243998,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "gop:gope"
+        },
+        {
+          "stem": "sop",
+          "short_word": "sop",
+          "long_word": "sope",
+          "ing_short_word": "sopping",
+          "ing_long_word": "soping",
+          "nearest_real_short": [
+            {
+              "word": "sop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.148771626798963,
+          "char_trigram_score_long": -1.8254952476136523,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "gop:gope"
+        },
+        {
+          "stem": "top",
+          "short_word": "top",
+          "long_word": "tope",
+          "ing_short_word": "topping",
+          "ing_long_word": "toping",
+          "nearest_real_short": [
+            {
+              "word": "top",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "tope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.005385719899451,
+          "char_trigram_score_long": -1.7179558174390184,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "gop:gope"
+        }
+      ]
+    },
+    "vop:vope": {
+      "accepted": [
+        {
+          "stem": "bop",
+          "short_word": "bop",
+          "long_word": "bope",
+          "ing_short_word": "bopping",
+          "ing_long_word": "boping",
+          "nearest_real_short": [
+            {
+              "word": "bob",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.4739314945537916,
+          "char_trigram_score_long": -2.0693651484297737,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "vop:vope",
+          "score": 2
+        },
+        {
+          "stem": "kop",
+          "short_word": "kop",
+          "long_word": "kope",
+          "ing_short_word": "kopping",
+          "ing_long_word": "koping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.7531742976774765,
+          "char_trigram_score_long": -2.278797250772537,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "vop:vope",
+          "score": 2
+        },
+        {
+          "stem": "zop",
+          "short_word": "zop",
+          "long_word": "zope",
+          "ing_short_word": "zopping",
+          "ing_long_word": "zoping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.556935804984667,
+          "char_trigram_score_long": -2.1316183812529306,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "vop:vope",
+          "score": 2
+        }
+      ],
+      "rejected": [
+        {
+          "stem": "dop",
+          "short_word": "dop",
+          "long_word": "dope",
+          "ing_short_word": "dopping",
+          "ing_long_word": "doping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.1321014866074095,
+          "char_trigram_score_long": -1.8129926424699871,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "vop:vope"
+        },
+        {
+          "stem": "fop",
+          "short_word": "fop",
+          "long_word": "fope",
+          "ing_short_word": "fopping",
+          "ing_long_word": "foping",
+          "nearest_real_short": [
+            {
+              "word": "fop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.2198848105381592,
+          "char_trigram_score_long": -1.8788301354180497,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "vop:vope"
+        },
+        {
+          "stem": "mop",
+          "short_word": "mop",
+          "long_word": "mope",
+          "ing_short_word": "mopping",
+          "ing_long_word": "moping",
+          "nearest_real_short": [
+            {
+              "word": "mop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.1951821531535853,
+          "char_trigram_score_long": -1.8603031423796192,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "vop:vope"
+        },
+        {
+          "stem": "nop",
+          "short_word": "nop",
+          "long_word": "nope",
+          "ing_short_word": "nopping",
+          "ing_long_word": "noping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "nope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.0960302917273315,
+          "char_trigram_score_long": -1.7859392463099288,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "vop:vope"
+        },
+        {
+          "stem": "pop",
+          "short_word": "pop",
+          "long_word": "pope",
+          "ing_short_word": "popping",
+          "ing_long_word": "poping",
+          "nearest_real_short": [
+            {
+              "word": "pop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "pope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.051973034024504,
+          "char_trigram_score_long": -1.752896303032808,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "vop:vope"
+        },
+        {
+          "stem": "rop",
+          "short_word": "rop",
+          "long_word": "rope",
+          "ing_short_word": "ropping",
+          "ing_long_word": "roping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "rope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.1224669045466262,
+          "char_trigram_score_long": -1.8057667059243998,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "vop:vope"
+        },
+        {
+          "stem": "sop",
+          "short_word": "sop",
+          "long_word": "sope",
+          "ing_short_word": "sopping",
+          "ing_long_word": "soping",
+          "nearest_real_short": [
+            {
+              "word": "sop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.148771626798963,
+          "char_trigram_score_long": -1.8254952476136523,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "vop:vope"
+        },
+        {
+          "stem": "top",
+          "short_word": "top",
+          "long_word": "tope",
+          "ing_short_word": "topping",
+          "ing_long_word": "toping",
+          "nearest_real_short": [
+            {
+              "word": "top",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "tope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.005385719899451,
+          "char_trigram_score_long": -1.7179558174390184,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "vop:vope"
+        }
+      ]
+    },
+    "wot:wote": {
+      "accepted": [
+        {
+          "stem": "kot",
+          "short_word": "kot",
+          "long_word": "kote",
+          "ing_short_word": "kotting",
+          "ing_long_word": "koting",
+          "nearest_real_short": [
+            {
+              "word": "bot",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dote",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.62236850010558,
+          "char_trigram_score_long": -2.329423553035507,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "wot:wote",
+          "score": 2
+        }
+      ],
+      "rejected": [
+        {
+          "stem": "bot",
+          "short_word": "bot",
+          "long_word": "bote",
+          "ing_short_word": "botting",
+          "ing_long_word": "boting",
+          "nearest_real_short": [
+            {
+              "word": "bot",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "bot",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.1120766367952473,
+          "char_trigram_score_long": -1.9467046555527572,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "wot:wote"
+        },
+        {
+          "stem": "dot",
+          "short_word": "dot",
+          "long_word": "dote",
+          "ing_short_word": "dotting",
+          "ing_long_word": "doting",
+          "nearest_real_short": [
+            {
+              "word": "dot",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dote",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -1.8661406529994584,
+          "char_trigram_score_long": -1.7622526677059156,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "wot:wote"
+        },
+        {
+          "stem": "fot",
+          "short_word": "fot",
+          "long_word": "fote",
+          "ing_short_word": "fotting",
+          "ing_long_word": "foting",
+          "nearest_real_short": [
+            {
+              "word": "bot",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dote",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.3201280731529117,
+          "char_trigram_score_long": -2.102743232821006,
+          "retained": false,
+          "reasons": [
+            "collides_with_existing_production_item"
+          ],
+          "source_pair": "wot:wote"
+        },
+        {
+          "stem": "mot",
+          "short_word": "mot",
+          "long_word": "mote",
+          "ing_short_word": "motting",
+          "ing_long_word": "moting",
+          "nearest_real_short": [
+            {
+              "word": "bot",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "mote",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.064376355581689,
+          "char_trigram_score_long": -1.9109294446425888,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "wot:wote"
+        },
+        {
+          "stem": "not",
+          "short_word": "not",
+          "long_word": "note",
+          "ing_short_word": "notting",
+          "ing_long_word": "noting",
+          "nearest_real_short": [
+            {
+              "word": "not",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "note",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -1.8300694581193806,
+          "char_trigram_score_long": -1.7351992715458575,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "wot:wote"
+        },
+        {
+          "stem": "pot",
+          "short_word": "pot",
+          "long_word": "pote",
+          "ing_short_word": "potting",
+          "ing_long_word": "poting",
+          "nearest_real_short": [
+            {
+              "word": "pot",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dote",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.0563222724886625,
+          "char_trigram_score_long": -1.904888882322819,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "wot:wote"
+        },
+        {
+          "stem": "rot",
+          "short_word": "rot",
+          "long_word": "rote",
+          "ing_short_word": "rotting",
+          "ing_long_word": "roting",
+          "nearest_real_short": [
+            {
+              "word": "rot",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "rote",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -1.8565060709386756,
+          "char_trigram_score_long": -1.7550267311603285,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "wot:wote"
+        },
+        {
+          "stem": "sot",
+          "short_word": "sot",
+          "long_word": "sote",
+          "ing_short_word": "sotting",
+          "ing_long_word": "soting",
+          "nearest_real_short": [
+            {
+              "word": "sot",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dote",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.017965829227067,
+          "char_trigram_score_long": -1.8761215498766222,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "wot:wote"
+        },
+        {
+          "stem": "tot",
+          "short_word": "tot",
+          "long_word": "tote",
+          "ing_short_word": "totting",
+          "ing_long_word": "toting",
+          "nearest_real_short": [
+            {
+              "word": "tot",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dote",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.0097349583636097,
+          "char_trigram_score_long": -1.8699483967290291,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "wot:wote"
+        },
+        {
+          "stem": "zot",
+          "short_word": "zot",
+          "long_word": "zote",
+          "ing_short_word": "zotting",
+          "ing_long_word": "zoting",
+          "nearest_real_short": [
+            {
+              "word": "bot",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dote",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.426130007412771,
+          "char_trigram_score_long": -2.1822446835159,
+          "retained": false,
+          "reasons": [
+            "collides_with_existing_production_item"
+          ],
+          "source_pair": "wot:wote"
+        }
+      ]
+    },
+    "jop:jope": {
+      "accepted": [
+        {
+          "stem": "bop",
+          "short_word": "bop",
+          "long_word": "bope",
+          "ing_short_word": "bopping",
+          "ing_long_word": "boping",
+          "nearest_real_short": [
+            {
+              "word": "bob",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.4739314945537916,
+          "char_trigram_score_long": -2.0693651484297737,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "jop:jope",
+          "score": 2
+        },
+        {
+          "stem": "kop",
+          "short_word": "kop",
+          "long_word": "kope",
+          "ing_short_word": "kopping",
+          "ing_long_word": "koping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.7531742976774765,
+          "char_trigram_score_long": -2.278797250772537,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "jop:jope",
+          "score": 2
+        },
+        {
+          "stem": "zop",
+          "short_word": "zop",
+          "long_word": "zope",
+          "ing_short_word": "zopping",
+          "ing_long_word": "zoping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.556935804984667,
+          "char_trigram_score_long": -2.1316183812529306,
+          "retained": true,
+          "reasons": [],
+          "source_pair": "jop:jope",
+          "score": 2
+        }
+      ],
+      "rejected": [
+        {
+          "stem": "dop",
+          "short_word": "dop",
+          "long_word": "dope",
+          "ing_short_word": "dopping",
+          "ing_long_word": "doping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "dope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.1321014866074095,
+          "char_trigram_score_long": -1.8129926424699871,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "jop:jope"
+        },
+        {
+          "stem": "fop",
+          "short_word": "fop",
+          "long_word": "fope",
+          "ing_short_word": "fopping",
+          "ing_long_word": "foping",
+          "nearest_real_short": [
+            {
+              "word": "fop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.2198848105381592,
+          "char_trigram_score_long": -1.8788301354180497,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "jop:jope"
+        },
+        {
+          "stem": "mop",
+          "short_word": "mop",
+          "long_word": "mope",
+          "ing_short_word": "mopping",
+          "ing_long_word": "moping",
+          "nearest_real_short": [
+            {
+              "word": "mop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.1951821531535853,
+          "char_trigram_score_long": -1.8603031423796192,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "jop:jope"
+        },
+        {
+          "stem": "nop",
+          "short_word": "nop",
+          "long_word": "nope",
+          "ing_short_word": "nopping",
+          "ing_long_word": "noping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "nope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.0960302917273315,
+          "char_trigram_score_long": -1.7859392463099288,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "jop:jope"
+        },
+        {
+          "stem": "pop",
+          "short_word": "pop",
+          "long_word": "pope",
+          "ing_short_word": "popping",
+          "ing_long_word": "poping",
+          "nearest_real_short": [
+            {
+              "word": "pop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "pope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.051973034024504,
+          "char_trigram_score_long": -1.752896303032808,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "jop:jope"
+        },
+        {
+          "stem": "rop",
+          "short_word": "rop",
+          "long_word": "rope",
+          "ing_short_word": "ropping",
+          "ing_long_word": "roping",
+          "nearest_real_short": [
+            {
+              "word": "cop",
+              "distance": 1
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "rope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.1224669045466262,
+          "char_trigram_score_long": -1.8057667059243998,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "jop:jope"
+        },
+        {
+          "stem": "sop",
+          "short_word": "sop",
+          "long_word": "sope",
+          "ing_short_word": "sopping",
+          "ing_long_word": "soping",
+          "nearest_real_short": [
+            {
+              "word": "sop",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "cope",
+              "distance": 1
+            }
+          ],
+          "char_trigram_score_short": -2.148771626798963,
+          "char_trigram_score_long": -1.8254952476136523,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "jop:jope"
+        },
+        {
+          "stem": "top",
+          "short_word": "top",
+          "long_word": "tope",
+          "ing_short_word": "topping",
+          "ing_long_word": "toping",
+          "nearest_real_short": [
+            {
+              "word": "top",
+              "distance": 0
+            }
+          ],
+          "nearest_real_long": [
+            {
+              "word": "tope",
+              "distance": 0
+            }
+          ],
+          "char_trigram_score_short": -2.005385719899451,
+          "char_trigram_score_long": -1.7179558174390184,
+          "retained": false,
+          "reasons": [
+            "exact_real_word_match",
+            "too_close_to_real_word"
+          ],
+          "source_pair": "jop:jope"
+        }
+      ]
+    }
+  },
+  "control_matched_candidates": {
+    "accepted": [
+      {
+        "stem": "fot",
+        "short_word": "fot",
+        "long_word": "fote",
+        "ing_short_word": "fotting",
+        "ing_long_word": "foting",
+        "nearest_real_short": [
+          {
+            "word": "bot",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "dote",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.3201280731529117,
+        "char_trigram_score_long": -2.102743232821006,
+        "retained": true,
+        "reasons": [
+          "existing_control_anchor"
+        ],
+        "source_pair": "fot:fote"
+      },
+      {
+        "stem": "zot",
+        "short_word": "zot",
+        "long_word": "zote",
+        "ing_short_word": "zotting",
+        "ing_long_word": "zoting",
+        "nearest_real_short": [
+          {
+            "word": "bot",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "dote",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.426130007412771,
+        "char_trigram_score_long": -2.1822446835159,
+        "retained": true,
+        "reasons": [
+          "existing_control_anchor"
+        ],
+        "source_pair": "zot:zote"
+      },
+      {
+        "stem": "jop",
+        "short_word": "jop",
+        "long_word": "jope",
+        "ing_short_word": "jopping",
+        "ing_long_word": "joping",
+        "nearest_real_short": [
+          {
+            "word": "cop",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "cope",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.3364696442362125,
+        "char_trigram_score_long": -1.9662687606915892,
+        "retained": true,
+        "reasons": [
+          "existing_control_anchor"
+        ],
+        "source_pair": "jop:jope"
+      }
+    ],
+    "rejected": []
+  },
+  "suggested_pilot_set": {
+    "replacements": [
+      {
+        "stem": "bop",
+        "short_word": "bop",
+        "long_word": "bope",
+        "ing_short_word": "bopping",
+        "ing_long_word": "boping",
+        "nearest_real_short": [
+          {
+            "word": "bob",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "cope",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.4739314945537916,
+        "char_trigram_score_long": -2.0693651484297737,
+        "retained": true,
+        "reasons": [],
+        "source_pair": "gop:gope",
+        "score": 2
+      },
+      {
+        "stem": "kop",
+        "short_word": "kop",
+        "long_word": "kope",
+        "ing_short_word": "kopping",
+        "ing_long_word": "koping",
+        "nearest_real_short": [
+          {
+            "word": "cop",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "cope",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.7531742976774765,
+        "char_trigram_score_long": -2.278797250772537,
+        "retained": true,
+        "reasons": [],
+        "source_pair": "vop:vope",
+        "score": 2
+      },
+      {
+        "stem": "kot",
+        "short_word": "kot",
+        "long_word": "kote",
+        "ing_short_word": "kotting",
+        "ing_long_word": "koting",
+        "nearest_real_short": [
+          {
+            "word": "bot",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "dote",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.62236850010558,
+        "char_trigram_score_long": -2.329423553035507,
+        "retained": true,
+        "reasons": [],
+        "source_pair": "wot:wote",
+        "score": 2
+      },
+      {
+        "stem": "zop",
+        "short_word": "zop",
+        "long_word": "zope",
+        "ing_short_word": "zopping",
+        "ing_long_word": "zoping",
+        "nearest_real_short": [
+          {
+            "word": "cop",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "cope",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.556935804984667,
+        "char_trigram_score_long": -2.1316183812529306,
+        "retained": true,
+        "reasons": [],
+        "source_pair": "jop:jope",
+        "score": 2
+      }
+    ],
+    "controls": [
+      {
+        "stem": "fot",
+        "short_word": "fot",
+        "long_word": "fote",
+        "ing_short_word": "fotting",
+        "ing_long_word": "foting",
+        "nearest_real_short": [
+          {
+            "word": "bot",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "dote",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.3201280731529117,
+        "char_trigram_score_long": -2.102743232821006,
+        "retained": true,
+        "reasons": [
+          "existing_control_anchor"
+        ],
+        "source_pair": "fot:fote"
+      },
+      {
+        "stem": "zot",
+        "short_word": "zot",
+        "long_word": "zote",
+        "ing_short_word": "zotting",
+        "ing_long_word": "zoting",
+        "nearest_real_short": [
+          {
+            "word": "bot",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "dote",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.426130007412771,
+        "char_trigram_score_long": -2.1822446835159,
+        "retained": true,
+        "reasons": [
+          "existing_control_anchor"
+        ],
+        "source_pair": "zot:zote"
+      },
+      {
+        "stem": "jop",
+        "short_word": "jop",
+        "long_word": "jope",
+        "ing_short_word": "jopping",
+        "ing_long_word": "joping",
+        "nearest_real_short": [
+          {
+            "word": "cop",
+            "distance": 1
+          }
+        ],
+        "nearest_real_long": [
+          {
+            "word": "cope",
+            "distance": 1
+          }
+        ],
+        "char_trigram_score_short": -2.3364696442362125,
+        "char_trigram_score_long": -1.9662687606915892,
+        "retained": true,
+        "reasons": [
+          "existing_control_anchor"
+        ],
+        "source_pair": "jop:jope"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+version: 1
+name: t04_theory_redesign_rules
+
+audit_targets:
+  fixed_am_indistinguishable_pairs:
+    - gop:gope
+    - vop:vope
+    - wot:wote
+    - jop:jope
+  control_separable_pairs:
+    - fot:fote
+    - zot:zote
+    - jope:jop
+
+template_balance:
+  required_templates:
+    - CVC
+    - CVCE
+    - ING_SHORT
+    - ING_LONG
+  max_template_ratio: 1.6
+
+orthographic_legality:
+  require_ascii_lower: true
+  min_vowel_count: 1
+  forbidden_bigrams:
+    - qq
+    - qx
+    - zx
+    - xq
+    - vv
+    - ww
+  max_illegal_flag_count: 0
+
+phonotactic_probability_proxy:
+  method: char_trigram_logprob
+  target_min_percentile: 0.2
+  target_max_percentile: 0.85
+
+neighborhood:
+  orthographic:
+    target_min_real_neighbors_1edit: 0
+    target_max_real_neighbors_1edit: 3
+    target_min_pseudo_neighbors_1edit: 0
+    target_max_pseudo_neighbors_1edit: 4
+  phonological:
+    target_min_real_neighbors_1edit: 0
+    target_max_real_neighbors_1edit: 4
+    target_min_pseudo_neighbors_1edit: 0
+    target_max_pseudo_neighbors_1edit: 4
+
+real_word_similarity:
+  min_orthographic_distance_to_real_word: 1
+  warn_if_distance_is_1: true
+  reject_if_exact_real_word_match: true
+
+minimal_pair_burden:
+  max_cluster_size: 4
+  max_degree_in_minpair_graph: 3
+
+vowel_contrast:
+  required_short_long_markers:
+    short: O_SHORT_I
+    long: O_LONG_I
+  require_same_onset_and_coda_within_pair: true
+
+candidate_generation:
+  replacement_per_problem_pair: 6
+  suggested_pilot_replacements_per_pair: 1
+  allowed_onsets:
+    - b
+    - d
+    - f
+    - g
+    - j
+    - k
+    - m
+    - n
+    - p
+    - r
+    - s
+    - t
+    - v
+    - w
+    - z
+  allowed_codas:
+    - p
+    - t
+  avoid_onsets_for_problem_replacement:
+    - g
+    - v
+    - w
+    - j
+  keep_existing_production_items_immutable: true
+
+compatibility:
+  keep_task_structure: true
+  keep_formal_levels:
+    - T04_CVC
+    - T04_CVCE
+    - T04_ING_A
+    - T04_ING_B

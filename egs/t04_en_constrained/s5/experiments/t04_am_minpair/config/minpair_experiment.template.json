@@ -1,0 +1,35 @@
+{
+  "experiment_name": "t04_minpair_quick",
+  "runtime_root": "egs/t04_en_constrained/s5/runtime",
+  "train_wav_dir": "egs/t04_en_constrained/s5/runtime/diagnostic/wavs_ref_renamed_16k",
+  "eval_wav_dir": "egs/t04_en_constrained/s5/runtime/diagnostic/wavs_ref_renamed_16k",
+  "baseline_model_dir": "",
+  "adapted_model_dir": "",
+  "fixed_pairs": [
+    "gop:gope",
+    "vop:vope",
+    "wot:wote",
+    "jop:jope"
+  ],
+  "control_pairs": [
+    "fot:fote",
+    "zot:zote",
+    "jope:jop"
+  ],
+  "include_control_pairs_in_train": true,
+  "train_reps": [1],
+  "dev_reps": [2],
+  "eval_reps": [1, 2],
+  "acoustic_scale": 0.1,
+  "margin_threshold": 0.0,
+  "small_margin_threshold": 0.05,
+  "duration_threshold": 1.2,
+  "vowel_local_margin_threshold": 0.05,
+  "known_am_indistinguishable_pairs": "gop:gope,vop:vope,wot:wote,jop:jope",
+  "adaptation_command": "",
+  "notes": [
+    "Set baseline_model_dir to current AM model path (e.g. runtime/model/m13_librispeech_resolved).",
+    "If adaptation_command is empty, runner will symlink baseline as adapted model (scaffold dry run).",
+    "adaptation_command runs in bash with env vars: BASELINE_MODEL_DIR, ADAPTED_MODEL_DIR, TRAIN_MANIFEST, DEV_MANIFEST, RUNTIME_ROOT, S5_ROOT."
+  ]
+}

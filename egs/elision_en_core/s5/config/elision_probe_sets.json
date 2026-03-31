@@ -1,0 +1,54 @@
+{
+  "task_id": "ELISION_EN_CORE",
+  "probe_inventory_version": "v1",
+  "items": [
+    {
+      "item_id": "ELISION_A_FOTTING",
+      "syllable_deletion_probe": {
+        "probe_type": "syllable_deletion_probe",
+        "target": "ting",
+        "competitor_1": "fotting",
+        "competitor_2": "fot",
+        "candidate_words": ["ting", "fotting", "fot"],
+        "comparison_scope": "target_vs_whole_and_deleted_part"
+      },
+      "phoneme_deletion_probe": null
+    },
+    {
+      "item_id": "ELISION_A_GOPPING",
+      "syllable_deletion_probe": {
+        "probe_type": "syllable_deletion_probe",
+        "target": "ping",
+        "competitor_1": "gopping",
+        "competitor_2": "gop",
+        "candidate_words": ["ping", "gopping", "gop"],
+        "comparison_scope": "target_vs_whole_and_deleted_part"
+      },
+      "phoneme_deletion_probe": null
+    },
+    {
+      "item_id": "ELISION_B_WOT",
+      "syllable_deletion_probe": null,
+      "phoneme_deletion_probe": {
+        "probe_type": "phoneme_deletion_probe",
+        "target": "ot",
+        "competitor_1": "wot",
+        "competitor_2": null,
+        "candidate_words": ["ot", "wot"],
+        "comparison_scope": "target_vs_whole_only"
+      }
+    },
+    {
+      "item_id": "ELISION_B_ZOD",
+      "syllable_deletion_probe": null,
+      "phoneme_deletion_probe": {
+        "probe_type": "phoneme_deletion_probe",
+        "target": "od",
+        "competitor_1": "zod",
+        "competitor_2": null,
+        "candidate_words": ["od", "zod"],
+        "comparison_scope": "target_vs_whole_only"
+      }
+    }
+  ]
+}

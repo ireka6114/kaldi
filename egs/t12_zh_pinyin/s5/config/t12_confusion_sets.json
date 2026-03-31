@@ -1,0 +1,51 @@
+{
+  "task_id": "T12_ZH_PINYIN",
+  "formal_default": {
+    "candidate_policy": "item_plus_confusion_bundle",
+    "families": [
+      {
+        "family_name": "t12_bootstrap_bundle",
+        "diagnostic_dimension": "composite_pinyin",
+        "items": {
+          "dao4": ["dao4"],
+          "gui1": ["gui1"],
+          "qie1": ["qie1"],
+          "jiu4": ["jiu4"],
+          "dun1": ["dun1"],
+          "wen2": ["wen2"],
+          "ying3": ["ying3"],
+          "xue3": ["xue3"],
+          "hua1": ["hua1"],
+          "lai4": ["lai4"],
+          "ban2": ["ban2"],
+          "cui2": ["cui2"],
+          "diao2": ["diao2"],
+          "guai2": ["guai2"],
+          "jue3": ["jue3"],
+          "kong2": ["kong2"],
+          "luan1": ["luan1"],
+          "mei1": ["mei1"],
+          "xiu2": ["xiu2"],
+          "yue2": ["yue2"],
+          "zu4": ["zu4"],
+          "ce2": ["ce2"],
+          "diu4": ["diu4"],
+          "fou2": ["fou2"],
+          "gei4": ["gei4"],
+          "kuo3": ["kuo3"],
+          "keng4": ["keng4"],
+          "nin4": ["nin4"],
+          "nue3": ["nue3"],
+          "te2": ["te2"],
+          "hei4": ["hei4"],
+          "run1": ["run1"]
+        }
+      }
+    ]
+  },
+  "diagnostic_level_all": {
+    "candidate_policy": "diagnostic_level_all",
+    "enabled": true,
+    "notes": "Reserved for later whole-level analysis only."
+  }
+}

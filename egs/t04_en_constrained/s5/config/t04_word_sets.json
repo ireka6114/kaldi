@@ -1,0 +1,62 @@
+{
+  "task_id": "T04_EN",
+  "formal_levels": {
+    "T04_CVC": {
+      "level_tag": "CVC",
+      "source_set": "CVC",
+      "uses_levels": [],
+      "words": ["fot", "gop", "vop", "wot", "jop", "zot"],
+      "confusion_groups": [
+        ["fot", "wot", "zot"],
+        ["gop", "vop", "jop"]
+      ]
+    },
+    "T04_CVCE": {
+      "level_tag": "CVCE",
+      "source_set": "CVCE",
+      "uses_levels": [],
+      "words": ["fote", "gope", "vope", "wote", "jope", "zote"],
+      "confusion_groups": [
+        ["fote", "wote", "zote"],
+        ["gope", "vope", "jope"]
+      ]
+    },
+    "T04_ING_A": {
+      "level_tag": "ING",
+      "source_set": "ING_A",
+      "uses_levels": ["L1", "L2", "L5"],
+      "words": ["fotting", "goping", "vopping", "woting", "jopping", "zoting"],
+      "confusion_groups": [
+        ["fotting", "woting", "zoting"],
+        ["goping", "vopping", "jopping"]
+      ]
+    },
+    "T04_ING_B": {
+      "level_tag": "ING",
+      "source_set": "ING_B",
+      "uses_levels": ["L3", "L4"],
+      "words": ["fotting", "gopping", "vopping", "wotting", "jopping", "zotting"],
+      "confusion_groups": [
+        ["fotting", "wotting", "zotting"],
+        ["gopping", "vopping", "jopping"]
+      ]
+    }
+  },
+  "demo_levels": {
+    "T04_CVC_DEMO": {
+      "level_tag": "CVC",
+      "source_set": "CVC_DEMO",
+      "words": ["bod", "zod"]
+    },
+    "T04_CVCE_DEMO": {
+      "level_tag": "CVCE",
+      "source_set": "CVCE_DEMO",
+      "words": ["bod", "bode", "dod", "dode"]
+    },
+    "T04_ING_DEMO": {
+      "level_tag": "ING",
+      "source_set": "ING_DEMO",
+      "words": ["boting", "boding", "bodding"]
+    }
+  }
+}

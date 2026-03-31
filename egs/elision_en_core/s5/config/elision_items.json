@@ -1,0 +1,58 @@
+{
+  "task_id": "ELISION_EN_CORE",
+  "inventory_version": "v1",
+  "items": [
+    {
+      "item_id": "ELISION_A_FOTTING",
+      "group": "A",
+      "whole_word": "fotting",
+      "target_word": "ting",
+      "deleted_part": "fot",
+      "pseudo_word": true,
+      "phone_sequences": {
+        "whole_word": ["F", "O_SHORT", "T", "IH", "NG"],
+        "target_word": ["T", "IH", "NG"],
+        "deleted_part": ["F", "O_SHORT"]
+      }
+    },
+    {
+      "item_id": "ELISION_A_GOPPING",
+      "group": "A",
+      "whole_word": "gopping",
+      "target_word": "ping",
+      "deleted_part": "gop",
+      "pseudo_word": true,
+      "phone_sequences": {
+        "whole_word": ["G", "O_SHORT", "P", "IH", "NG"],
+        "target_word": ["P", "IH", "NG"],
+        "deleted_part": ["G", "O_SHORT"]
+      }
+    },
+    {
+      "item_id": "ELISION_B_WOT",
+      "group": "B",
+      "whole_word": "wot",
+      "target_word": "ot",
+      "deleted_part": "w",
+      "pseudo_word": true,
+      "phone_sequences": {
+        "whole_word": ["W", "O_SHORT", "T"],
+        "target_word": ["O_SHORT", "T"],
+        "deleted_part": ["W"]
+      }
+    },
+    {
+      "item_id": "ELISION_B_ZOD",
+      "group": "B",
+      "whole_word": "zod",
+      "target_word": "od",
+      "deleted_part": "z",
+      "pseudo_word": true,
+      "phone_sequences": {
+        "whole_word": ["Z", "O_SHORT", "D"],
+        "target_word": ["O_SHORT", "D"],
+        "deleted_part": ["Z"]
+      }
+    }
+  ]
+}

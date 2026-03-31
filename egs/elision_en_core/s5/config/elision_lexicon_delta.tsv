@@ -1,0 +1,69 @@
+item_id	group	surface_role	surface	pseudo_word	phone_source	phones
+ELISION_A_FOTTING	A	whole_word	fotting	true	manual	F O_SHORT T IH NG
+ELISION_A_FOTTING	A	target_word	ting	true	manual	T IH NG
+ELISION_A_FOTTING	A	deleted_part	fot	false	manual	F O_SHORT
+ELISION_A_GOPPING	A	whole_word	gopping	true	manual	G O_SHORT P IH NG
+ELISION_A_GOPPING	A	target_word	ping	true	manual	P IH NG
+ELISION_A_GOPPING	A	deleted_part	gop	false	manual	G O_SHORT
+ELISION_B_WOT	B	whole_word	wot	true	manual	W O_SHORT T
+ELISION_B_WOT	B	target_word	ot	true	manual	O_SHORT T
+ELISION_B_WOT	B	deleted_part	w	false	manual	W
+ELISION_B_ZOD	B	whole_word	zod	true	manual	Z O_SHORT D
+ELISION_B_ZOD	B	target_word	od	true	manual	O_SHORT D
+ELISION_B_ZOD	B	deleted_part	z	false	manual	Z
+REF_A_001	A	whole_word	teaspoon	false	manual	T IY S P UW N
+REF_A_001	A	target_word	spoon	false	manual	S P UW N
+REF_A_001	A	deleted_part	tea	false	manual	T IY
+REF_A_002	A	whole_word	lighthouse	false	manual	L AY T HH AW S
+REF_A_002	A	target_word	house	false	manual	HH AW S
+REF_A_002	A	deleted_part	light	false	manual	L AY T
+REF_A_003	A	whole_word	blueberry	false	manual	B L UW B EH R IY
+REF_A_003	A	target_word	berry	false	manual	B EH R IY
+REF_A_003	A	deleted_part	blue	false	manual	B L UW
+REF_A_004	A	whole_word	sunflower	false	manual	S AH N F L AW ER
+REF_A_004	A	target_word	flower	false	manual	F L AW ER
+REF_A_004	A	deleted_part	sun	false	manual	S AH N
+REF_A_005	A	whole_word	firefighter	false	manual	F AY ER F AY T ER
+REF_A_005	A	target_word	fighter	false	manual	F AY T ER
+REF_A_005	A	deleted_part	fire	false	manual	F AY ER
+REF_A_006	A	whole_word	brother	false	manual	B R AH DH ER
+REF_A_006	A	target_word	ther	true	manual	DH ER
+REF_A_006	A	deleted_part	bro	false	manual	B R AH
+REF_A_007	A	whole_word	pupil	false	manual	P Y UW P AH L
+REF_A_007	A	target_word	pil	true	manual	P AH L
+REF_A_007	A	deleted_part	pu	false	manual	P Y UW
+REF_A_008	A	whole_word	subject	false	manual	S AH B JH EH K T
+REF_A_008	A	target_word	ject	true	manual	JH EH K T
+REF_A_008	A	deleted_part	sub	false	manual	S AH B
+REF_B_009	B	whole_word	let	false	manual	L EH T
+REF_B_009	B	target_word	et	true	manual	EH T
+REF_B_009	B	deleted_part	l	false	manual	L
+REF_B_010	B	whole_word	dog	false	manual	D AO G
+REF_B_010	B	target_word	og	true	manual	AO G
+REF_B_010	B	deleted_part	d	false	manual	D
+REF_B_011	B	whole_word	girl	false	manual	G ER L
+REF_B_011	B	target_word	irl	true	manual	ER L
+REF_B_011	B	deleted_part	g	false	manual	G
+REF_B_012	B	whole_word	bus	false	manual	B AH S
+REF_B_012	B	target_word	us	true	manual	AH S
+REF_B_012	B	deleted_part	b	false	manual	B
+REF_B_013	B	whole_word	cat	false	manual	K AE T
+REF_B_013	B	target_word	at	true	manual	AE T
+REF_B_013	B	deleted_part	c	false	manual	K
+REF_B_014	B	whole_word	jeep	false	manual	JH IY P
+REF_B_014	B	target_word	eep	true	manual	IY P
+REF_B_014	B	deleted_part	j	false	manual	JH
+REF_B_015	B	whole_word	stop	false	manual	S T AA P
+REF_B_015	B	target_word	top	false	manual	T AA P
+REF_B_015	B	deleted_part	s	false	manual	S
+REF_B_016	B	whole_word	drop	false	manual	D R AA P
+REF_B_016	B	target_word	rop	true	manual	R AA P
+REF_B_017	B	whole_word	spin	false	manual	S P IH N
+REF_B_017	B	target_word	pin	false	manual	P IH N
+REF_B_018	B	whole_word	slip	false	manual	S L IH P
+REF_B_018	B	target_word	lip	false	manual	L IH P
+REF_B_019	B	whole_word	trap	false	manual	T R AE P
+REF_B_019	B	target_word	rap	false	manual	R AE P
+REF_B_019	B	deleted_part	t	false	manual	T
+REF_B_020	B	whole_word	clap	false	manual	K L AE P
+REF_B_020	B	target_word	lap	false	manual	L AE P

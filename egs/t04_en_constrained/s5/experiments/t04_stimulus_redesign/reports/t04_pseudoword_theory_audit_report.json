@@ -1,0 +1,1676 @@
+{
+  "rules_version": 1,
+  "inventory_size": 21,
+  "items": {
+    "fot": {
+      "template_type": "CVC",
+      "grapheme_length": 3,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "F_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "T_E",
+        "grapheme_onset": "f",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "t"
+      },
+      "phoneme_sequence": [
+        "F_B",
+        "O_SHORT_I",
+        "T_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.3201280731529117,
+        "percentile_within_inventory": 0.6666666666666666
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 17,
+        "nearest_real_words": [
+          {
+            "word": "bot",
+            "distance": 1
+          },
+          {
+            "word": "cot",
+            "distance": 1
+          },
+          {
+            "word": "dot",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 50,
+        "nearest_real_words_phonological": [
+          {
+            "word": "fat",
+            "distance": 0
+          },
+          {
+            "word": "fit",
+            "distance": 0
+          },
+          {
+            "word": "bat",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 0
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 0,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": true,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "fote": {
+      "template_type": "CVCE",
+      "grapheme_length": 4,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "F_B",
+        "nucleus_phone": "O_LONG_I",
+        "coda_phone": "T_E",
+        "grapheme_onset": "f",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "e"
+      },
+      "phoneme_sequence": [
+        "F_B",
+        "O_LONG_I",
+        "T_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.102743232821006,
+        "percentile_within_inventory": 0.9047619047619048
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 8,
+        "nearest_real_words": [
+          {
+            "word": "dote",
+            "distance": 1
+          },
+          {
+            "word": "fate",
+            "distance": 1
+          },
+          {
+            "word": "hote",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 20,
+        "nearest_real_words_phonological": [
+          {
+            "word": "fate",
+            "distance": 0
+          },
+          {
+            "word": "cute",
+            "distance": 1
+          },
+          {
+            "word": "dote",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 0
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 1,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": true,
+      "risk_flags": {
+        "likely_over_wordlike": true,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "fotting": {
+      "template_type": "ING_SHORT",
+      "grapheme_length": 7,
+      "phoneme_length": 5,
+      "onset_nucleus_coda": {
+        "onset_phone": "F_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "T_I",
+        "grapheme_onset": "f",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "g"
+      },
+      "phoneme_sequence": [
+        "F_B",
+        "O_SHORT_I",
+        "T_I",
+        "IH_I",
+        "NG_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -3.27960715737065,
+        "percentile_within_inventory": 0.23809523809523808
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 2,
+        "orthographic_real_neighbors_1edit": 0,
+        "nearest_real_words": [
+          {
+            "word": "fig",
+            "distance": 4
+          },
+          {
+            "word": "fin",
+            "distance": 4
+          },
+          {
+            "word": "fine",
+            "distance": 4
+          }
+        ],
+        "nearest_real_distance": 4
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 2,
+        "phonological_real_neighbors_1edit": 0,
+        "nearest_real_words_phonological": [
+          {
+            "word": "fan",
+            "distance": 3
+          },
+          {
+            "word": "fat",
+            "distance": 3
+          },
+          {
+            "word": "fed",
+            "distance": 3
+          }
+        ],
+        "nearest_real_phone_distance": 3
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 2,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "gop": {
+      "template_type": "CVC",
+      "grapheme_length": 3,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "G_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "P_E",
+        "grapheme_onset": "g",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "p"
+      },
+      "phoneme_sequence": [
+        "G_B",
+        "O_SHORT_I",
+        "P_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.270720575232669,
+        "percentile_within_inventory": 0.7142857142857143
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 10,
+        "nearest_real_words": [
+          {
+            "word": "cop",
+            "distance": 1
+          },
+          {
+            "word": "fop",
+            "distance": 1
+          },
+          {
+            "word": "gap",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 31,
+        "nearest_real_words_phonological": [
+          {
+            "word": "gap",
+            "distance": 0
+          },
+          {
+            "word": "cap",
+            "distance": 1
+          },
+          {
+            "word": "cop",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 0
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 3,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": true,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "gope": {
+      "template_type": "CVCE",
+      "grapheme_length": 4,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "G_B",
+        "nucleus_phone": "O_LONG_I",
+        "coda_phone": "P_E",
+        "grapheme_onset": "g",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "e"
+      },
+      "phoneme_sequence": [
+        "G_B",
+        "O_LONG_I",
+        "P_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -1.9169569589389317,
+        "percentile_within_inventory": 1.0
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 8,
+        "nearest_real_words": [
+          {
+            "word": "gope",
+            "distance": 0
+          },
+          {
+            "word": "cope",
+            "distance": 1
+          },
+          {
+            "word": "dope",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 0
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 17,
+        "nearest_real_words_phonological": [
+          {
+            "word": "gape",
+            "distance": 0
+          },
+          {
+            "word": "gope",
+            "distance": 0
+          },
+          {
+            "word": "cape",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 0
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 4,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": true,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": true,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "goping": {
+      "template_type": "ING_LONG",
+      "grapheme_length": 6,
+      "phoneme_length": 5,
+      "onset_nucleus_coda": {
+        "onset_phone": "G_B",
+        "nucleus_phone": "O_LONG_I",
+        "coda_phone": "P_I",
+        "grapheme_onset": "g",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "g"
+      },
+      "phoneme_sequence": [
+        "G_B",
+        "O_LONG_I",
+        "P_I",
+        "IH_I",
+        "NG_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -3.0114322766120787,
+        "percentile_within_inventory": 0.42857142857142855
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 1,
+        "orthographic_real_neighbors_1edit": 0,
+        "nearest_real_words": [
+          {
+            "word": "gig",
+            "distance": 3
+          },
+          {
+            "word": "gin",
+            "distance": 3
+          },
+          {
+            "word": "gope",
+            "distance": 3
+          }
+        ],
+        "nearest_real_distance": 3
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 1,
+        "phonological_real_neighbors_1edit": 0,
+        "nearest_real_words_phonological": [
+          {
+            "word": "game",
+            "distance": 3
+          },
+          {
+            "word": "gape",
+            "distance": 3
+          },
+          {
+            "word": "gate",
+            "distance": 3
+          }
+        ],
+        "nearest_real_phone_distance": 3
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 5,
+        "cluster_size": 1,
+        "degree": 0
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "gopping": {
+      "template_type": "ING_SHORT",
+      "grapheme_length": 7,
+      "phoneme_length": 5,
+      "onset_nucleus_coda": {
+        "onset_phone": "G_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "P_I",
+        "grapheme_onset": "g",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "g"
+      },
+      "phoneme_sequence": [
+        "G_B",
+        "O_SHORT_I",
+        "P_I",
+        "IH_I",
+        "NG_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -3.0466700282419934,
+        "percentile_within_inventory": 0.38095238095238093
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 0,
+        "nearest_real_words": [
+          {
+            "word": "gig",
+            "distance": 4
+          },
+          {
+            "word": "gin",
+            "distance": 4
+          },
+          {
+            "word": "gope",
+            "distance": 4
+          }
+        ],
+        "nearest_real_distance": 4
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 0,
+        "nearest_real_words_phonological": [
+          {
+            "word": "gap",
+            "distance": 3
+          },
+          {
+            "word": "gas",
+            "distance": 3
+          },
+          {
+            "word": "get",
+            "distance": 3
+          }
+        ],
+        "nearest_real_phone_distance": 3
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 6,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "jop": {
+      "template_type": "CVC",
+      "grapheme_length": 3,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "JH_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "P_E",
+        "grapheme_onset": "j",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "p"
+      },
+      "phoneme_sequence": [
+        "JH_B",
+        "O_SHORT_I",
+        "P_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.3364696442362125,
+        "percentile_within_inventory": 0.6190476190476191
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 10,
+        "nearest_real_words": [
+          {
+            "word": "cop",
+            "distance": 1
+          },
+          {
+            "word": "fop",
+            "distance": 1
+          },
+          {
+            "word": "hop",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 32,
+        "nearest_real_words_phonological": [
+          {
+            "word": "cap",
+            "distance": 1
+          },
+          {
+            "word": "cop",
+            "distance": 1
+          },
+          {
+            "word": "dip",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 1
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 3,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": true,
+      "belongs_to_known_control_separable_pair": true,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "jope": {
+      "template_type": "CVCE",
+      "grapheme_length": 4,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "JH_B",
+        "nucleus_phone": "O_LONG_I",
+        "coda_phone": "P_E",
+        "grapheme_onset": "j",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "e"
+      },
+      "phoneme_sequence": [
+        "JH_B",
+        "O_LONG_I",
+        "P_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -1.9662687606915892,
+        "percentile_within_inventory": 0.9523809523809523
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 10,
+        "nearest_real_words": [
+          {
+            "word": "cope",
+            "distance": 1
+          },
+          {
+            "word": "dope",
+            "distance": 1
+          },
+          {
+            "word": "gope",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 16,
+        "nearest_real_words_phonological": [
+          {
+            "word": "jape",
+            "distance": 0
+          },
+          {
+            "word": "cape",
+            "distance": 1
+          },
+          {
+            "word": "cope",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 0
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 4,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": true,
+      "belongs_to_known_control_separable_pair": true,
+      "risk_flags": {
+        "likely_over_wordlike": true,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "jopping": {
+      "template_type": "ING_SHORT",
+      "grapheme_length": 7,
+      "phoneme_length": 5,
+      "onset_nucleus_coda": {
+        "onset_phone": "JH_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "P_I",
+        "grapheme_onset": "j",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "g"
+      },
+      "phoneme_sequence": [
+        "JH_B",
+        "O_SHORT_I",
+        "P_I",
+        "IH_I",
+        "NG_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -3.074848200672083,
+        "percentile_within_inventory": 0.3333333333333333
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 2,
+        "orthographic_real_neighbors_1edit": 0,
+        "nearest_real_words": [
+          {
+            "word": "jig",
+            "distance": 4
+          },
+          {
+            "word": "jog",
+            "distance": 4
+          },
+          {
+            "word": "pig",
+            "distance": 4
+          }
+        ],
+        "nearest_real_distance": 4
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 2,
+        "phonological_real_neighbors_1edit": 0,
+        "nearest_real_words_phonological": [
+          {
+            "word": "jab",
+            "distance": 3
+          },
+          {
+            "word": "jam",
+            "distance": 3
+          },
+          {
+            "word": "jet",
+            "distance": 3
+          }
+        ],
+        "nearest_real_phone_distance": 3
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 6,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "vop": {
+      "template_type": "CVC",
+      "grapheme_length": 3,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "V_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "P_E",
+        "grapheme_onset": "v",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "p"
+      },
+      "phoneme_sequence": [
+        "V_B",
+        "O_SHORT_I",
+        "P_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.556935804984667,
+        "percentile_within_inventory": 0.47619047619047616
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 7,
+        "nearest_real_words": [
+          {
+            "word": "cop",
+            "distance": 1
+          },
+          {
+            "word": "fop",
+            "distance": 1
+          },
+          {
+            "word": "hop",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 27,
+        "nearest_real_words_phonological": [
+          {
+            "word": "cap",
+            "distance": 1
+          },
+          {
+            "word": "cop",
+            "distance": 1
+          },
+          {
+            "word": "dip",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 1
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 3,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": true,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "vope": {
+      "template_type": "CVCE",
+      "grapheme_length": 4,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "V_B",
+        "nucleus_phone": "O_LONG_I",
+        "coda_phone": "P_E",
+        "grapheme_onset": "v",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "e"
+      },
+      "phoneme_sequence": [
+        "V_B",
+        "O_LONG_I",
+        "P_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.1316183812529306,
+        "percentile_within_inventory": 0.8571428571428571
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 10,
+        "nearest_real_words": [
+          {
+            "word": "cope",
+            "distance": 1
+          },
+          {
+            "word": "dope",
+            "distance": 1
+          },
+          {
+            "word": "gope",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 16,
+        "nearest_real_words_phonological": [
+          {
+            "word": "vape",
+            "distance": 0
+          },
+          {
+            "word": "cape",
+            "distance": 1
+          },
+          {
+            "word": "cope",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 0
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 4,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": true,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": true,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "vopping": {
+      "template_type": "ING_SHORT",
+      "grapheme_length": 7,
+      "phoneme_length": 5,
+      "onset_nucleus_coda": {
+        "onset_phone": "V_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "P_I",
+        "grapheme_onset": "v",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "g"
+      },
+      "phoneme_sequence": [
+        "V_B",
+        "O_SHORT_I",
+        "P_I",
+        "IH_I",
+        "NG_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -3.169333698135707,
+        "percentile_within_inventory": 0.2857142857142857
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 2,
+        "orthographic_real_neighbors_1edit": 0,
+        "nearest_real_words": [
+          {
+            "word": "pig",
+            "distance": 4
+          },
+          {
+            "word": "pin",
+            "distance": 4
+          },
+          {
+            "word": "pine",
+            "distance": 4
+          }
+        ],
+        "nearest_real_distance": 4
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 2,
+        "phonological_real_neighbors_1edit": 0,
+        "nearest_real_words_phonological": [
+          {
+            "word": "van",
+            "distance": 3
+          },
+          {
+            "word": "vat",
+            "distance": 3
+          },
+          {
+            "word": "vet",
+            "distance": 3
+          }
+        ],
+        "nearest_real_phone_distance": 3
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 6,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "wot": {
+      "template_type": "CVC",
+      "grapheme_length": 3,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "W_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "T_E",
+        "grapheme_onset": "w",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "t"
+      },
+      "phoneme_sequence": [
+        "W_B",
+        "O_SHORT_I",
+        "T_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.4569211141231095,
+        "percentile_within_inventory": 0.5238095238095238
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 14,
+        "nearest_real_words": [
+          {
+            "word": "bot",
+            "distance": 1
+          },
+          {
+            "word": "cot",
+            "distance": 1
+          },
+          {
+            "word": "dot",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 44,
+        "nearest_real_words_phonological": [
+          {
+            "word": "wit",
+            "distance": 0
+          },
+          {
+            "word": "bat",
+            "distance": 1
+          },
+          {
+            "word": "bet",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 0
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 0,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": true,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "wote": {
+      "template_type": "CVCE",
+      "grapheme_length": 4,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "W_B",
+        "nucleus_phone": "O_LONG_I",
+        "coda_phone": "T_E",
+        "grapheme_onset": "w",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "e"
+      },
+      "phoneme_sequence": [
+        "W_B",
+        "O_LONG_I",
+        "T_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.205338013548654,
+        "percentile_within_inventory": 0.7619047619047619
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 7,
+        "nearest_real_words": [
+          {
+            "word": "dote",
+            "distance": 1
+          },
+          {
+            "word": "hote",
+            "distance": 1
+          },
+          {
+            "word": "lote",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 20,
+        "nearest_real_words_phonological": [
+          {
+            "word": "cute",
+            "distance": 1
+          },
+          {
+            "word": "dote",
+            "distance": 1
+          },
+          {
+            "word": "fate",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 1
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 1,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": true,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": true,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "woting": {
+      "template_type": "ING_LONG",
+      "grapheme_length": 6,
+      "phoneme_length": 5,
+      "onset_nucleus_coda": {
+        "onset_phone": "W_B",
+        "nucleus_phone": "O_LONG_I",
+        "coda_phone": "T_I",
+        "grapheme_onset": "w",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "g"
+      },
+      "phoneme_sequence": [
+        "W_B",
+        "O_LONG_I",
+        "T_I",
+        "IH_I",
+        "NG_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -3.35158878108061,
+        "percentile_within_inventory": 0.047619047619047616
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 2,
+        "orthographic_real_neighbors_1edit": 0,
+        "nearest_real_words": [
+          {
+            "word": "wig",
+            "distance": 3
+          },
+          {
+            "word": "win",
+            "distance": 3
+          },
+          {
+            "word": "wine",
+            "distance": 3
+          }
+        ],
+        "nearest_real_distance": 3
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 2,
+        "phonological_real_neighbors_1edit": 0,
+        "nearest_real_words_phonological": [
+          {
+            "word": "wade",
+            "distance": 3
+          },
+          {
+            "word": "wave",
+            "distance": 3
+          },
+          {
+            "word": "wine",
+            "distance": 3
+          }
+        ],
+        "nearest_real_phone_distance": 3
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 7,
+        "cluster_size": 2,
+        "degree": 1
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": true,
+        "high_minpair_burden": false
+      }
+    },
+    "wotting": {
+      "template_type": "ING_SHORT",
+      "grapheme_length": 7,
+      "phoneme_length": 5,
+      "onset_nucleus_coda": {
+        "onset_phone": "W_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "T_I",
+        "grapheme_onset": "w",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "g"
+      },
+      "phoneme_sequence": [
+        "W_B",
+        "O_SHORT_I",
+        "T_I",
+        "IH_I",
+        "NG_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -3.338232746357878,
+        "percentile_within_inventory": 0.09523809523809523
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 0,
+        "nearest_real_words": [
+          {
+            "word": "wig",
+            "distance": 4
+          },
+          {
+            "word": "win",
+            "distance": 4
+          },
+          {
+            "word": "wine",
+            "distance": 4
+          }
+        ],
+        "nearest_real_distance": 4
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 0,
+        "nearest_real_words_phonological": [
+          {
+            "word": "wig",
+            "distance": 3
+          },
+          {
+            "word": "win",
+            "distance": 3
+          },
+          {
+            "word": "wit",
+            "distance": 3
+          }
+        ],
+        "nearest_real_phone_distance": 3
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 2,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": true,
+        "high_minpair_burden": false
+      }
+    },
+    "zot": {
+      "template_type": "CVC",
+      "grapheme_length": 3,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "Z_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "T_E",
+        "grapheme_onset": "z",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "t"
+      },
+      "phoneme_sequence": [
+        "Z_B",
+        "O_SHORT_I",
+        "T_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.426130007412771,
+        "percentile_within_inventory": 0.5714285714285714
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 13,
+        "nearest_real_words": [
+          {
+            "word": "bot",
+            "distance": 1
+          },
+          {
+            "word": "cot",
+            "distance": 1
+          },
+          {
+            "word": "dot",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 44,
+        "nearest_real_words_phonological": [
+          {
+            "word": "zit",
+            "distance": 0
+          },
+          {
+            "word": "bat",
+            "distance": 1
+          },
+          {
+            "word": "bet",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 0
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 0,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": true,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "zote": {
+      "template_type": "CVCE",
+      "grapheme_length": 4,
+      "phoneme_length": 3,
+      "onset_nucleus_coda": {
+        "onset_phone": "Z_B",
+        "nucleus_phone": "O_LONG_I",
+        "coda_phone": "T_E",
+        "grapheme_onset": "z",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "e"
+      },
+      "phoneme_sequence": [
+        "Z_B",
+        "O_LONG_I",
+        "T_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -2.1822446835159,
+        "percentile_within_inventory": 0.8095238095238095
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 8,
+        "nearest_real_words": [
+          {
+            "word": "dote",
+            "distance": 1
+          },
+          {
+            "word": "hote",
+            "distance": 1
+          },
+          {
+            "word": "lote",
+            "distance": 1
+          }
+        ],
+        "nearest_real_distance": 1
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 17,
+        "nearest_real_words_phonological": [
+          {
+            "word": "cute",
+            "distance": 1
+          },
+          {
+            "word": "dote",
+            "distance": 1
+          },
+          {
+            "word": "fate",
+            "distance": 1
+          }
+        ],
+        "nearest_real_phone_distance": 1
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 1,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": true,
+      "risk_flags": {
+        "likely_over_wordlike": true,
+        "likely_too_alien": false,
+        "high_minpair_burden": false
+      }
+    },
+    "zoting": {
+      "template_type": "ING_LONG",
+      "grapheme_length": 6,
+      "phoneme_length": 5,
+      "onset_nucleus_coda": {
+        "onset_phone": "Z_B",
+        "nucleus_phone": "O_LONG_I",
+        "coda_phone": "T_I",
+        "grapheme_onset": "z",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "g"
+      },
+      "phoneme_sequence": [
+        "Z_B",
+        "O_LONG_I",
+        "T_I",
+        "IH_I",
+        "NG_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -3.3361932277254405,
+        "percentile_within_inventory": 0.14285714285714285
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 2,
+        "orthographic_real_neighbors_1edit": 0,
+        "nearest_real_words": [
+          {
+            "word": "zig",
+            "distance": 3
+          },
+          {
+            "word": "zone",
+            "distance": 3
+          },
+          {
+            "word": "big",
+            "distance": 4
+          }
+        ],
+        "nearest_real_distance": 3
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 2,
+        "phonological_real_neighbors_1edit": 0,
+        "nearest_real_words_phonological": [
+          {
+            "word": "zone",
+            "distance": 3
+          },
+          {
+            "word": "cape",
+            "distance": 4
+          },
+          {
+            "word": "coke",
+            "distance": 4
+          }
+        ],
+        "nearest_real_phone_distance": 3
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 7,
+        "cluster_size": 2,
+        "degree": 1
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": true,
+        "high_minpair_burden": false
+      }
+    },
+    "zotting": {
+      "template_type": "ING_SHORT",
+      "grapheme_length": 7,
+      "phoneme_length": 5,
+      "onset_nucleus_coda": {
+        "onset_phone": "Z_B",
+        "nucleus_phone": "O_SHORT_I",
+        "coda_phone": "T_I",
+        "grapheme_onset": "z",
+        "grapheme_nucleus": "o",
+        "grapheme_coda": "g"
+      },
+      "phoneme_sequence": [
+        "Z_B",
+        "O_SHORT_I",
+        "T_I",
+        "IH_I",
+        "NG_E"
+      ],
+      "orthographic_legality": {
+        "orthographic_flags": [],
+        "orthographic_legal": true
+      },
+      "phonotactic_probability_proxy": {
+        "char_trigram_avg_logprob": -3.3250365577677323,
+        "percentile_within_inventory": 0.19047619047619047
+      },
+      "orthographic_neighborhood": {
+        "orthographic_pseudo_neighbors_1edit": 3,
+        "orthographic_real_neighbors_1edit": 0,
+        "nearest_real_words": [
+          {
+            "word": "zig",
+            "distance": 4
+          },
+          {
+            "word": "zone",
+            "distance": 4
+          },
+          {
+            "word": "big",
+            "distance": 5
+          }
+        ],
+        "nearest_real_distance": 4
+      },
+      "phonological_neighborhood": {
+        "phonological_pseudo_neighbors_1edit": 3,
+        "phonological_real_neighbors_1edit": 0,
+        "nearest_real_words_phonological": [
+          {
+            "word": "zap",
+            "distance": 3
+          },
+          {
+            "word": "zig",
+            "distance": 3
+          },
+          {
+            "word": "zip",
+            "distance": 3
+          }
+        ],
+        "nearest_real_phone_distance": 3
+      },
+      "minimal_pair_cluster": {
+        "cluster_id": 2,
+        "cluster_size": 3,
+        "degree": 2
+      },
+      "belongs_to_known_am_indistinguishable_pair": false,
+      "belongs_to_known_control_separable_pair": false,
+      "risk_flags": {
+        "likely_over_wordlike": false,
+        "likely_too_alien": true,
+        "high_minpair_burden": false
+      }
+    }
+  },
+  "findings": {
+    "over_wordlike_items": [
+      "fote",
+      "gope",
+      "jope",
+      "vope",
+      "wote",
+      "zote"
+    ],
+    "too_alien_items": [
+      "woting",
+      "wotting",
+      "zoting",
+      "zotting"
+    ],
+    "high_burden_clusters": [],
+    "template_balance": {
+      "counts": {
+        "CVC": 6,
+        "CVCE": 6,
+        "ING_SHORT": 6,
+        "ING_LONG": 3
+      },
+      "max_to_min_ratio": 2.0,
+      "passes_balance_rule": false
+    },
+    "problematic_pair_correlation": {
+      "problem_words": [
+        "gop",
+        "gope",
+        "jop",
+        "jope",
+        "vop",
+        "vope",
+        "wot",
+        "wote"
+      ],
+      "control_words": [
+        "fot",
+        "fote",
+        "jop",
+        "jope",
+        "zot",
+        "zote"
+      ],
+      "problem_vs_other_mean_orth_real_n1": {
+        "problem": 9.5,
+        "other": 3.5384615384615383
+      },
+      "problem_vs_other_mean_phonotactic_percentile": {
+        "problem": 0.7380952380952381,
+        "other": 0.39194139194139194
+      },
+      "problematic_pairs_isolated_or_broader": "correlated_with_broader_wordlikeness"
+    }
+  }
+}

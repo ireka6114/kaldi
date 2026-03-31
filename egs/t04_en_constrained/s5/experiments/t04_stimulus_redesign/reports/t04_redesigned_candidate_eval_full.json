@@ -1,0 +1,233 @@
+{
+  "mode": "full",
+  "n_replacement_pairs": 10,
+  "n_control_pairs": 3,
+  "template_balance": {
+    "counts": {
+      "CVC": 10,
+      "CVCE": 10
+    },
+    "max_to_min_ratio": 1.0
+  },
+  "real_word_proximity": {
+    "mean_nearest_distance_short": 1.0,
+    "mean_nearest_distance_long": 1.0,
+    "close_distance_ratio_le1": 1.0
+  },
+  "minimal_pair_concentration": {
+    "source_pair_coverage": {
+      "gop:gope": 3,
+      "vop:vope": 3,
+      "wot:wote": 1,
+      "jop:jope": 3
+    },
+    "max_candidates_per_source_pair": 3
+  },
+  "predicted_risk_flags": [
+    "high_real_word_proximity"
+  ],
+  "compatibility": {
+    "has_replacements": true,
+    "has_controls": true,
+    "source_pair_coverage": {
+      "gop:gope": 3,
+      "vop:vope": 3,
+      "wot:wote": 1,
+      "jop:jope": 3
+    },
+    "problem_word_count_reference": 8,
+    "compatible_with_existing_t04_structure": true
+  },
+  "replacement_pairs": [
+    {
+      "pair": "bop:bope",
+      "source_pair": "gop:gope",
+      "short_word": "bop",
+      "long_word": "bope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.4739314945537916,
+      "char_trigram_score_long": -2.0693651484297737,
+      "retained": true,
+      "reasons": []
+    },
+    {
+      "pair": "kop:kope",
+      "source_pair": "gop:gope",
+      "short_word": "kop",
+      "long_word": "kope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.7531742976774765,
+      "char_trigram_score_long": -2.278797250772537,
+      "retained": true,
+      "reasons": []
+    },
+    {
+      "pair": "zop:zope",
+      "source_pair": "gop:gope",
+      "short_word": "zop",
+      "long_word": "zope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.556935804984667,
+      "char_trigram_score_long": -2.1316183812529306,
+      "retained": true,
+      "reasons": []
+    },
+    {
+      "pair": "bop:bope",
+      "source_pair": "vop:vope",
+      "short_word": "bop",
+      "long_word": "bope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.4739314945537916,
+      "char_trigram_score_long": -2.0693651484297737,
+      "retained": true,
+      "reasons": []
+    },
+    {
+      "pair": "kop:kope",
+      "source_pair": "vop:vope",
+      "short_word": "kop",
+      "long_word": "kope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.7531742976774765,
+      "char_trigram_score_long": -2.278797250772537,
+      "retained": true,
+      "reasons": []
+    },
+    {
+      "pair": "zop:zope",
+      "source_pair": "vop:vope",
+      "short_word": "zop",
+      "long_word": "zope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.556935804984667,
+      "char_trigram_score_long": -2.1316183812529306,
+      "retained": true,
+      "reasons": []
+    },
+    {
+      "pair": "kot:kote",
+      "source_pair": "wot:wote",
+      "short_word": "kot",
+      "long_word": "kote",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.62236850010558,
+      "char_trigram_score_long": -2.329423553035507,
+      "retained": true,
+      "reasons": []
+    },
+    {
+      "pair": "bop:bope",
+      "source_pair": "jop:jope",
+      "short_word": "bop",
+      "long_word": "bope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.4739314945537916,
+      "char_trigram_score_long": -2.0693651484297737,
+      "retained": true,
+      "reasons": []
+    },
+    {
+      "pair": "kop:kope",
+      "source_pair": "jop:jope",
+      "short_word": "kop",
+      "long_word": "kope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.7531742976774765,
+      "char_trigram_score_long": -2.278797250772537,
+      "retained": true,
+      "reasons": []
+    },
+    {
+      "pair": "zop:zope",
+      "source_pair": "jop:jope",
+      "short_word": "zop",
+      "long_word": "zope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.556935804984667,
+      "char_trigram_score_long": -2.1316183812529306,
+      "retained": true,
+      "reasons": []
+    }
+  ],
+  "controls": [
+    {
+      "pair": "fot:fote",
+      "source_pair": "fot:fote",
+      "short_word": "fot",
+      "long_word": "fote",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.3201280731529117,
+      "char_trigram_score_long": -2.102743232821006,
+      "retained": true,
+      "reasons": [
+        "existing_control_anchor"
+      ]
+    },
+    {
+      "pair": "zot:zote",
+      "source_pair": "zot:zote",
+      "short_word": "zot",
+      "long_word": "zote",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.426130007412771,
+      "char_trigram_score_long": -2.1822446835159,
+      "retained": true,
+      "reasons": [
+        "existing_control_anchor"
+      ]
+    },
+    {
+      "pair": "jop:jope",
+      "source_pair": "jop:jope",
+      "short_word": "jop",
+      "long_word": "jope",
+      "short_template": "CVC",
+      "long_template": "CVCE",
+      "nearest_real_distance_short": 1,
+      "nearest_real_distance_long": 1,
+      "char_trigram_score_short": -2.3364696442362125,
+      "char_trigram_score_long": -1.9662687606915892,
+      "retained": true,
+      "reasons": [
+        "existing_control_anchor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+surface_form,word_id,phone_sequence,onset_probe_words,final_probe_words,tone_probe_words,notes
+dào,dao4,d ao,dao4|tao4|gao4,dao4|dou4|dan4,dao1|dao2|dao3|dao4,Formal target
+guī,gui1,g ui,gui1|kui1|hui1,gui1|gun1|gua1,gui1|gui2|gui3|gui4,Formal target
+qiē,qie1,q ie,qie1|jie1|xie1,qie1|qia1|qiu1,qie1|qie2|qie3|qie4,Formal target
+jiù,jiu4,j iu,jiu4|qiu4|xiu4,jiu4|jia4|jin4,jiu1|jiu2|jiu3|jiu4,Formal target
+dūn,dun1,d un,dun1|tun1|lun1,dun1|dong1|dui1,dun1|dun2|dun3|dun4,Formal target
+wén,wen2,w en,wen2|ren2|fen2,wen2|wang2|wei2,wen1|wen2|wen3|wen4,Zero onset task item
+yǐng,ying3,y ing,ying3|ling3|ning3,ying3|yin3|yong3,ying1|ying2|ying3|ying4,Zero onset task item
+xuě,xue3,x ve,xue3|jue3|yue3,xue3|xun3|xie3,xue1|xue2|xue3|xue4,Formal target
+huā,hua1,h ua,hua1|fua1|gua1,hua1|huo1|huan1,hua1|hua2|hua3|hua4,Formal target
+lài,lai4,l ai,lai4|nai4|dai4,lai4|lei4|lan4,lai1|lai2|lai3|lai4,L/N confusion point
+bán,ban2,b an,ban2|pan2|man2,ban2|bang2|bei2,ban1|ban2|ban3|ban4,Front/back nasal probe seed
+cuí,cui2,c ui,cui2|chui2|sui2,cui2|cun2|cai2,cui1|cui2|cui3|cui4,Retroflex contrast point
+diáo,diao2,d iao,diao2|tiao2|liao2,diao2|diu2|dan2,diao1|diao2|diao3|diao4,Formal target
+guái,guai2,g uai,guai2|kuai2|huai2,guai2|gui2|guan2,guai1|guai2|guai3|guai4,Formal target
+juě,jue3,j ve,jue3|zhue3|xue3,jue3|jie3|jun3,jue1|jue2|jue3|jue4,Formal target
+kóng,kong2,k ong,kong2|hong2|gong2,kong2|keng2|kou2,kong1|kong2|kong3|kong4,Formal target
+luān,luan1,l uan,luan1|nuan1|ruan1,luan1|lun1|luo1,luan1|luan2|luan3|luan4,L/N confusion point
+mēi,mei1,m ei,mei1|nei1|bei1,mei1|men1|mao1,mei1|mei2|mei3|mei4,Formal target
+xiú,xiu2,x iu,xiu2|qiu2|jiu2,xiu2|xin2|xie2,xiu1|xiu2|xiu3|xiu4,Formal target
+yué,yue2,y ve,yue2|jue2|xue2,yue2|ye2|yun2,yue1|yue2|yue3|yue4,Zero onset task item
+zù,zu4,z u,zu4|zhu4|cu4,zu4|zou4|zan4,zu1|zu2|zu3|zu4,Retroflex contrast point
+cé,ce2,c e,ce2|che2|se2,ce2|cai2|cen2,ce1|ce2|ce3|ce4,Rare or nonce-like item
+diù,diu4,d iu,diu4|tiu4|niu4,diu4|dou4|dian4,diu1|diu2|diu3|diu4,Formal target
+fóu,fou2,f ou,fou2|hou2|sou2,fou2|feng2|fo2,fou1|fou2|fou3|fou4,Rare or nonce-like item
+gèi,gei4,g ei,gei4|kei4|hei4,gei4|gen4|gou4,gei1|gei2|gei3|gei4,Formal target
+kuǒ,kuo3,k uo,kuo3|huo3|guo3,kuo3|ke3|kun3,kuo1|kuo2|kuo3|kuo4,Formal target
+kèng,keng4,k eng,keng4|geng4|heng4,keng4|ken4|kong4,keng1|keng2|keng3|keng4,Front/back nasal probe seed
+nìn,nin4,n in,nin4|lin4|min4,nin4|ning4|nian4,nin1|nin2|nin3|nin4,L/N and nasal probe point
+nüě,nue3,n ve,nue3|lue3|yue3,nue3|nie3|nun3,nue1|nue2|nue3|nue4,Unified with ue-series finals
+té,te2,t e,te2|de2|ce2,te2|tei2|ten2,te1|te2|te3|te4,Rare or nonce-like item
+hèi,hei4,h ei,hei4|fei4|gei4,hei4|hen4|hou4,hei1|hei2|hei3|hei4,Formal target
+rūn,run1,r un,run1|lun1|yun1,run1|rong1|rua1,run1|run2|run3|run4,Formal target

@@ -1,0 +1,17 @@
+{
+  "task_id": "T12_ZH_PINYIN",
+  "formal_levels": {
+    "T12_FORMAL": {
+      "level_tag": "FORMAL",
+      "source_set": "T12_FORMAL_32",
+      "uses_levels": [],
+      "words": [
+        "dao4", "gui1", "qie1", "jiu4", "dun1", "wen2", "ying3", "xue3",
+        "hua1", "lai4", "ban2", "cui2", "diao2", "guai2", "jue3", "kong2",
+        "luan1", "mei1", "xiu2", "yue2", "zu4", "ce2", "diu4", "fou2",
+        "gei4", "kuo3", "keng4", "nin4", "nue3", "te2", "hei4", "run1"
+      ]
+    }
+  },
+  "demo_levels": {}
+}
