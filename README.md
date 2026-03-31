@@ -10,6 +10,12 @@ instructions (excluding Cygwin), see `windows/INSTALL`.
 
 To run the example system builds, see `egs/README.txt`
 
+Local maintenance notes
+-----------------------
+
+- Repository-specific maintenance notes for this fork live in
+  `docs/repo_maintenance.md`.
+
 If you encounter problems (and you probably will), please do not hesitate to
 contact the developers (see below). In addition to specific questions, please
 let us know if there are specific aspects of the project that you feel could be
