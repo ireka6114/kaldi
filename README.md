@@ -15,6 +15,8 @@ Local maintenance notes
 
 - Repository-specific maintenance notes for this fork live in
   `docs/repo_maintenance.md`.
+- Current local task inventory and task-specific doc entry points live in
+  `docs/task_inventory.md`.
 
 If you encounter problems (and you probably will), please do not hesitate to
 contact the developers (see below). In addition to specific questions, please
@@ -95,3 +97,4 @@ cmake --build /home/gerhard/workspace/kaldi/build/Release
   using [emscripten](https://emscripten.org) and OpenBLAS
 - See [this repo](https://github.com/msqr1/kaldi-wasm2)
   for a step-by-step description of the build process.
+
