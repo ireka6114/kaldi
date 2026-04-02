@@ -1,0 +1,84 @@
+{
+  "version": "pseudoword_adapter_v1",
+  "environment": {
+    "repo_root": ".",
+    "platform": "WSL2",
+    "host_adapter_mode": "json_cli"
+  },
+  "tasks": {
+    "T04_EN_DYNAMIC": {
+      "status": "stable_pilot",
+      "current_host_mode": "formal_single_item",
+      "future_host_mode": "formal_single_item",
+      "active_business_source": "runtime/diagnostic/t04_stable_pilot_v1_manifest.json",
+      "runtime_root": "egs/t04_en_constrained/s5/runtime",
+      "config_json": "egs/t04_en_constrained/s5/config/t04_word_sets.json",
+      "graph_manifest": "egs/t04_en_constrained/s5/runtime/manifests/t04_graph_manifest.json",
+      "probe_manifest": "egs/t04_en_constrained/s5/runtime/manifests/t04_probe_manifest.json",
+      "model_manifest": "egs/t04_en_constrained/s5/runtime/manifests/model_manifest.json",
+      "thresholds": {
+        "margin_threshold": 0.0,
+        "small_margin_threshold": 0.05,
+        "duration_threshold": 1.2,
+        "vowel_local_margin_threshold": 0.05,
+        "acoustic_scale": 0.1,
+        "nbest_n": 10
+      }
+    },
+    "T01_EN_PHONDEL": {
+      "status": "instruction_clarified",
+      "current_host_mode": "formal_single_item",
+      "future_host_mode": "formal_single_item",
+      "active_business_source": "egs/elision_en_core/s5/config/elision_items.json",
+      "runtime_root": "egs/elision_en_core/s5/runtime",
+      "items_json": "egs/elision_en_core/s5/config/elision_items.json",
+      "t01_rules_json": "egs/elision_en_core/s5/config/t01_static_rules.json",
+      "probe_manifest": "egs/elision_en_core/s5/runtime/manifests/elision_probe_manifest.json",
+      "graph_manifest": "egs/elision_en_core/s5/runtime/manifests/elision_graph_manifest.json",
+      "model_manifest": "egs/elision_en_core/s5/runtime/manifests/elision_model_manifest.json",
+      "prepare_script": "egs/elision_en_core/s5/scripts/prepare_t01_static_trials.py",
+      "score_script": "egs/elision_en_core/s5/scripts/score_elision_probes.py",
+      "instruction_note_source": "runtime/diagnostic/t01_t02_instruction_clarification.json",
+      "thresholds": {
+        "margin_threshold": 0.0,
+        "acoustic_scale": 0.1
+      }
+    },
+    "T02_EN_DYNAMIC_PHONDEL": {
+      "status": "instruction_clarified",
+      "current_host_mode": "formal_single_item",
+      "future_host_mode": "formal_single_item",
+      "active_business_source": "egs/elision_en_core/s5/config/elision_items.json",
+      "runtime_root": "egs/elision_en_core/s5/runtime",
+      "items_json": "egs/elision_en_core/s5/config/elision_items.json",
+      "t01_rules_json": "egs/elision_en_core/s5/config/t01_static_rules.json",
+      "t02_rules_json": "egs/elision_en_core/s5/config/t02_dynamic_rules.json",
+      "probe_manifest": "egs/elision_en_core/s5/runtime/manifests/elision_probe_manifest.json",
+      "graph_manifest": "egs/elision_en_core/s5/runtime/manifests/elision_graph_manifest.json",
+      "model_manifest": "egs/elision_en_core/s5/runtime/manifests/elision_model_manifest.json",
+      "prepare_script": "egs/elision_en_core/s5/scripts/prepare_t02_dynamic_trials.py",
+      "score_script": "egs/elision_en_core/s5/scripts/score_elision_probes.py",
+      "instruction_note_source": "runtime/diagnostic/t01_t02_instruction_clarification.json",
+      "thresholds": {
+        "margin_threshold": 0.0,
+        "acoustic_scale": 0.1
+      }
+    },
+    "T12_ZH_PINYIN": {
+      "status": "monitor_only",
+      "current_host_mode": "shadow_decode_evidence",
+      "future_host_mode": "formal_single_item",
+      "active_business_source": "egs/t12_zh_pinyin/s5/config/t12_word_sets.json",
+      "runtime_root": "egs/t12_zh_pinyin/s5/runtime",
+      "graph_manifest": "egs/t12_zh_pinyin/s5/runtime/manifests/t12_graph_manifest.json",
+      "probe_manifest": "egs/t12_zh_pinyin/s5/runtime/manifests/t12_probe_manifest.json",
+      "model_manifest": "egs/t12_zh_pinyin/s5/runtime/manifests/model_manifest.json",
+      "score_script": "egs/t12_zh_pinyin/s5/scripts/score_t12_micro_probes.py",
+      "monitoring_note_source": "runtime/diagnostic/t12_pinyin_audit_handoff.md",
+      "formalization_note": "Keep the adapter contract stable now; later formal promotion should only require adding direct decode handling and flipping current_host_mode.",
+      "thresholds": {
+        "margin_threshold": 0.0
+      }
+    }
+  }
+}
