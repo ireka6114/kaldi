@@ -17,8 +17,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Install sox
-      run: sudo apt-get install -y sox intel-mkl
+    - name: Install build dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y software-properties-common
+        sudo add-apt-repository -y multiverse
+        sudo apt-get update
+        sudo apt-get install -y sox intel-mkl
     - name: ccache
       uses: hendrikmuhs/ccache-action@v1.2
       with:
